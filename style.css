@@ -66,7 +66,13 @@ nav ul li a:hover {
   align-items: center;
   justify-content: center;
   color: white;
+}
 
+.page1 h3{
+  text-align: center;
+  color: #7c7979;
+  font-weight: 500;
+  margin-top: 10px;
 }
 
 .project-list1{
@@ -125,22 +131,22 @@ nav ul li a:hover {
   color: white;
 }
 
-.detail1 button {
+.detail1 .button {
   padding: 10px 20px;
   font-size: 1rem;
   margin-top: 20px;
   border: none;
   border-radius: 2px;
 }
-.detail1 button:hover{
+.detail1 .button:hover{
    background-color: rgb(98, 255, 0);
    transition: 400ms;
 }
-.detail2 button:hover{
+.detail2 .button:hover{
    background-color: rgb(98, 255, 0);
    transition: 400ms;
 }
-.detail2 button {
+.detail2 .button {
   padding: 10px 20px;
   font-size: 1rem;
   margin-top: 20px;
@@ -177,7 +183,7 @@ nav ul li a:hover {
   height: 50vh;
   text-align: center;
   color: white;
-  background-color: rgb(74, 255, 24);
+  background-color: rgb(194, 199, 193);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -190,8 +196,41 @@ nav ul li a:hover {
   text-align: start;
   margin-left: 40px;
   color: black;
+
+}
+
+.about-content p {
+  bottom:  20px;
 }
 .about-heading{
    font-size: 3rem;
    color: rgb(0, 0, 0);
+}
+
+.media{
+
+   border: 2px solid black;
+   text-decoration: none;
+   color: black;
+   background-color: none;
+   padding: 3px 20px;
+   border-radius: 20px;
+   font-size: 1.2rem;
+   display: flex;
+   align-items: center;
+   margin-right: 10px;
+   text-align: center;
+
+}
+
+.account{
+  display: flex;
+  margin-top: 20px;
+}
+
+
+.media img {
+  width: 17px;
+  margin-right: 8px;
+
 }
