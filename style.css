@@ -14,7 +14,7 @@ body {
 
 nav {
   width: 100%;
-  padding: 30px ;
+  padding: 20px ;
   /* background-color: red; */
 }
 
@@ -292,12 +292,14 @@ footer {
 
   .about-me{
     padding: 10px 0px;
- 
     flex-direction: column;
   }
 
   .about-heading{
-    font-size: 2.2rem;
+    width:100%;
+    padding: 0px 14px;
+    font-size: 1.5rem;
+    text-align: start;
   }
 
   .about-content {
@@ -306,11 +308,39 @@ footer {
 
   .account {
     width: 100%;
-    /* background-color: red; */
   }
 
   .media{
-    font-size: 14px;
+    font-size: 2.4vw;
     margin-top: -10px;
+  }
+
+  .media img {
+    width: 10px;
+  }
+
+  header {
+    width: 100%;
+    position: fixed;
+    z-index: 100; 
+    background-color: #0d0d0d; 
+    margin-top: -20px;
+  }
+
+  .page1 {
+    margin-top: 60px;
+  }
+  
+  .about-content p {
+ 
+    /* text-align: center; */
+    /* padding: 0px 20px;  */
+  }
+
+  .about-me{
+    padding: 0px 20px;
+  }
+  footer{
+    font-size: 3vw;
   }
 }
